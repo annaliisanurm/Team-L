@@ -130,7 +130,7 @@ input[type=file]::file-selector-button {
     padding: .2em .4em;
     border-radius: .2em;
     background-color: #a2a7ea;
-    transition: 1s;
+    transition: 0.5s;
 }
 
 input[type=file]::file-selector-button:hover {
@@ -152,7 +152,7 @@ input[type="submit"] {
     font-size: 20px;
     width: 200px;
     align-self: center;
-    transition: 1s;
+    transition: 0.5s;
 }
 
 input[type="submit"]:hover{
