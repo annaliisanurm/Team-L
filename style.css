@@ -84,15 +84,15 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    min-width: 100vw;
+    min-height: 80vh;
+    min-width: 400px;
 }
 
 form {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    background-color: #a2ccea;
+    background-color: lightgray;
     padding: 20px;
     border-radius: 10px;
     max-width: 400px;
@@ -144,7 +144,7 @@ input[type=file]::file-selector-button:hover {
     align-items: center;
 }
 
-input[type="button"] {
+input[type="submit"] {
     background-color: #a2a7ea;
     border: 2px solid #a2a7ea;
     -webkit-text-fill-color: white;
@@ -155,7 +155,7 @@ input[type="button"] {
     transition: 1s;
 }
 
-input[type="button"]:hover{
+input[type="submit"]:hover{
     background-color: #a2ccea;
     border: 2px solid #a2ccea;
 }
